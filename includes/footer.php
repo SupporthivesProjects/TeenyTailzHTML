@@ -89,7 +89,6 @@
     <script src="uiframe/js/aos.js"></script>
     <script src="./uiframe/js/home-js.js"></script>
     <!-- Motion -->
-    <script src="./uiframe/js/motion.js"></script>
     <script>
       $(document).ready(function () {
           $(".navbar-toggler").click(function () {
