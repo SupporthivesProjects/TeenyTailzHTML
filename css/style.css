@@ -38,6 +38,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
+    border-radius: var(--radius-xs, 2px);
+    border: 2px dashed var(--brand-gold-light, #ECAD47);
 }
  .btn-tokens{
     display: flex;
@@ -147,6 +149,21 @@
 }
 .ifuserlloginDetails{
     display: none;
+}
+.dropdown-toggle.show::after {
+    transform: rotate(180deg);
+}
+.navbar{
+    padding: 40px 0px;
+}
+.btn-login:hover{
+    border-radius: var(--radius-s, 4px);
+    background: var(--brand-rust, #C83A14);
+}
+.btn-login:hover .btn-border-dots{
+    border-radius: var(--radius-xs, 2px);
+    border: 2px solid var(--brand-gold-light, #ECAD47);
+    background: var(--brand-gold-light, #ECAD47);
 }
 /* ------------------footer--------------- */
 .footer-menu-list h6{
