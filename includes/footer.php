@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-7 col-md-12 col-sm-12 col-12">
                     <div class="footer-logo">
-                        <img src="./img/logo.svg" class="img-fluid footer-logo-img">
+                        <img src="../img/logo.svg" class="img-fluid footer-logo-img">
                         <div>
                             <p>
                                 123 somewhere street, City, ABC 123
@@ -70,8 +70,8 @@
                 </div>
                 <div class="col-lg-6 col-sm-12 col-6 col-md-6 p-0">
                     <div class="masterimg">
-                        <img src="./img/visa.svg" class="img-fluid">
-                        <img src="./img/mastercard.svg" class="img-fluid">
+                        <img src="../img/visa.svg" class="img-fluid">
+                        <img src="../img/mastercard.svg" class="img-fluid">
                     </div>
                 </div>
             </div>
