@@ -2,18 +2,18 @@
 
 /* --------- External Library  CSS -------- */
 @import url(../css/hamburgers.css);
-@import url(/uiframe/css/bootstrap.min.css);
-@import url(/uiframe/css/animate.min.css);
-@import url(/uiframe/css/font-awesome.min.css);
-@import url(/uiframe/css/aos.css);
+@import url(../uiframe/css/bootstrap.min.css);
+@import url(../uiframe/css/animate.min.css);
+@import url(../uiframe/css/font-awesome.min.css);
+@import url(../uiframe/css/aos.css);
 
 /* --------- External Slider  CSS -------- */
 
 @import url(../css/owl.carousel.min.css);
 @import url(../css/owl.theme.default.css);
 @import url(../css/swiper-bundle.min.css);
-@import url(/uiframe/css/slick.css);
-@import url(/uiframe/css/slick-theme.css);
+@import url(../uiframe/css/slick.css);
+@import url(../uiframe/css/slick-theme.css);
 
 /* --------- developer  css -------- */
 
