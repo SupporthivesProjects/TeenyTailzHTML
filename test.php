@@ -1,4 +1,3 @@
 <?php
-    echo "I am test";
-
-    
+echo "I am test page"
+?>
