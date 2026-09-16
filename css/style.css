@@ -165,6 +165,177 @@
     border: 2px solid var(--brand-gold-light, #ECAD47);
     background: var(--brand-gold-light, #ECAD47);
 }
+.scrolled .navbar{
+    background: var(--brand-cream, #FBF3E0);
+
+}
+.cart-mo-top-btn{
+    display: none;
+}
+/* ---------------checkout------------------ */
+.checkout-complete{
+    padding: 216px 0px 138px;
+}
+
+.payment-complete{
+    display: flex;
+    width: 720px;
+    max-width: 100%;
+    padding: 56px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: var(--radius-m, 8px);
+    background: url(../img/outcome.png) no-repeat ;
+    box-shadow: 0 18px 44px -10px rgba(0, 0, 0, 0.30);
+    background-size: cover;
+    margin: auto;
+}
+.payment-complete h1{
+    color: var(--brand-navy, #16305B);
+    font-family: Anton;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.payment-complete p{
+    color: var(--brand-ink, #31486E);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%; /* 27.9px */
+    margin-bottom: 0px;
+}
+.order-checkout{
+    width: 100%;
+}
+.order-main{
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-top: 1px solid var(--brand-line-16, rgba(22, 48, 91, 0.16));
+    width: 100%;
+}
+.order-main h6{
+    color: var(--brand-navy-soft-55, rgba(22, 48, 91, 0.55));
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 28px */
+    margin-bottom: 0px;
+}
+.order-main h6:last-child{
+    color: var(--brand-navy, #16305B);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%; /* 27.9px */
+    margin-bottom: 0px;
+}
+.order-main:last-child{
+    border-bottom: 1px solid var(--brand-line-16, rgba(22, 48, 91, 0.16));
+}
+.btn-warp .btn-white{ 
+    display: flex;
+    padding: 6px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    text-decoration: none;
+    border-radius: var(--radius-s, 4px);
+    border: 1px solid var(--brand-navy, #16305B);
+    background: var(--brand-cream, #FBF3E0);
+
+}
+.btn-warp .btn-white span{
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    color: var(--brand-navy, #16305B);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-decoration: none;
+    border-radius: var(--radius-xs, 2px);
+    border: 2px dashed var(--brand-gold-light, #ECAD47);
+}
+
+.btn-warp .btn-orange{ 
+    display: flex;
+    padding: 6px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    text-decoration: none;
+    border-radius: var(--radius-s, 4px);
+    border: 0px solid var(--brand-navy, #16305B);
+    background: var(--brand-cream, #FBF3E0);
+    border-radius: var(--radius-s, 4px);
+    background: var(--brand-rust, #C83A14);
+
+}
+.payment-complete .btn-warp{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.btn-warp .btn-orange span{
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    color: var(--Base-White, #FFF);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 23.8px */
+    text-decoration: none;
+    border-radius: var(--radius-xs, 2px);
+    border: 2px dashed var(--brand-gold-light, #ECAD47);
+}
+.payment-complete .btn-warp .btn{
+    transition: all .6s;
+}
+.payment-complete .btn-warp .btn-white:hover{
+    border-radius: var(--radius-s, 4px);
+    background: var(--brand-navy, #16305B);
+}
+.payment-complete .btn-warp .btn-white:hover span{
+    border-radius: var(--radius-xs, 2px);
+    border: 2px solid var(--brand-cream, #FBF3E0);
+    background: var(--brand-cream, #FBF3E0);
+}
+
+.payment-complete .btn-warp .btn-orange:hover{
+    border-radius: var(--radius-s, 4px);
+    background: var(--brand-rust, #C83A14);
+}
+.payment-complete .btn-warp .btn-orange:hover span{
+    border-radius: var(--radius-xs, 2px);
+    border: 2px solid var(--brand-gold-light, #ECAD47);
+    background: var(--brand-gold-light, #ECAD47);
+}
 /* ------------------footer--------------- */
 .footer-menu-list h6{
     color: var(--brand-gold, #E9B04A);

@@ -23,6 +23,9 @@
               <img src="./img/brand.svg" alt="" class="img-fluid d-lg-block d-md-none d-none  brand-logo">
             </a>
             <div class="cart-mo-top-btn">
+              <div class="user-price">
+                <h6>5,650</h6>
+              </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <!-- <div class="hamburger hamburger--3dy">
                     <div class="hamburger-box">
