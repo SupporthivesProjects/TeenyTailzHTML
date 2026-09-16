@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teenytailz</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/tg-icon.svg">
-    <link rel="stylesheet" href="../css/mainBase.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/tg-icon.svg">
+    <link rel="stylesheet" href="css/mainBase.css">
   </head>
   <body>
   
@@ -19,8 +19,8 @@
         <div class="container p-mo p-0">
          <div class="logo-mo-div">
             <a class="navbar-brand" href="#">
-              <img src="../img/m-logo.svg" alt="" class="img-fluid d-lg-none d-md-blocks d-block  brand-logo-mo" id="logo">
-              <img src="../img/brand.svg" alt="" class="img-fluid d-lg-block d-md-none d-none  brand-logo">
+              <img src="./img/m-logo.svg" alt="" class="img-fluid d-lg-none d-md-blocks d-block  brand-logo-mo" id="logo">
+              <img src="./img/brand.svg" alt="" class="img-fluid d-lg-block d-md-none d-none  brand-logo">
             </a>
             <div class="cart-mo-top-btn">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
