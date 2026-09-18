@@ -8,8 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teenytailz</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/tg-icon.svg">
-    <link rel="stylesheet" href="css/mainBase.css">
+
+    <link rel="icon" type="image/svg+xml" href="./img/tg-icon.svg">
+    <link rel="stylesheet" href="./css/mainBase.css">
   </head>
   <body>
   
