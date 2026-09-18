@@ -576,14 +576,324 @@ width: 100%;
 }
 
 
+/* Make STory */
 
 
 
+    .create-story-book {
+        padding: 0px 0 30px;
+    }
+
+    .create-story-book > .container {
+        padding: 0 24px;
+    }
+
+    .book-spread {
+        max-width: 850px;
+        height: 480px;
+    }
+
+    .fron-content {
+        padding: 30px 28px 24px;
+    }
+
+    .story-text p {
+        font-size: 11px;
+    }
+
+    .book-controls {
+        margin-top: -78px;
+    }
+
+  /* =====================================================
+       CONTAINER
+       STRUCTURAL ONLY
+    ===================================================== */
+
+    .create-story-book > .container {
+        width: 100%;
+
+        max-width: 100%;
+
+        margin: 0;
+
+        padding: 0 12px;
+
+        box-sizing: border-box;
+    }
+
+
+    /* =====================================================
+       MAIN BOX
+    ===================================================== */
+
+    .create-story-book__mainbox {
+        width: 100%;
+
+        padding: 0;
+
+        box-sizing: border-box;
+    }
+
+
+    /* =====================================================
+       DESKTOP OFF
+    ===================================================== */
+
+    .create-story-book__desktop {
+        display: none;
+    }
+
+
+    /* =====================================================
+       MOBILE ON
+    ===================================================== */
+
+    .create-story-book__mobile {
+        display: block;
+
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+
+    /* =====================================================
+       OWL
+    ===================================================== */
+
+    .owl-carousel-genarate {
+        width: 100%;
+
+        margin: 0;
+
+        padding: 0;
+    }
+
+
+    .owl-carousel-genarate .owl-stage-outer {
+        width: 100%;
+
+        overflow: hidden;
+
+        border-radius: 6px;
+    }
+
+
+    .owl-carousel-genarate .owl-stage {
+        display: flex;
+    }
+
+
+    .owl-carousel-genarate .item {
+        width: 100%;
+
+        padding: 0;
+
+        box-sizing: border-box;
+    }
+
+
+    /* =====================================================
+       MOBILE STORY PAGE
+    ===================================================== */
+
+    .story-mobile-page {
+        width: 100%;
+        box-sizing: border-box;
+
+        background:
+            var(--brand-cream, #FBF3E0);
+
+        border-radius: 5px;
+
+        overflow: hidden;
+        max-width: 327px;
+        margin: 0px auto;
+    }
 
 
 
+    /* =====================================================
+       IMAGE
+    ===================================================== */
+
+    .story-mobile-page__image {
+        width: 100%;
+
+        height: auto;
+
+        aspect-ratio: 1 / 0.76;
+
+        display: block;
+
+        object-fit: cover;
+
+        object-position: center;
+
+        border-radius: 5px;
+
+        margin: 0 0 32px;
+    }
 
 
+    /* =====================================================
+       TEXT
+    ===================================================== */
+
+    .genrate-card {
+        width: 100%;
+
+        padding: 0;
+
+        margin: 0;
+
+        box-sizing: border-box;
+
+        background: transparent;
+
+        text-align: left;
+    }
+
+
+    .genrate-card p {
+        margin: 0 0 7px;
+color: var(--brand-ink, #31486E);
+font-family: "Nunito";
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 26.35px */
+    }
+
+
+    .genrate-card p:last-child {
+        margin-bottom: 0;
+    }
+
+
+    /* =====================================================
+       MOBILE CONTROLS
+    ===================================================== */
+
+    .mobile-book-controls {
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 24px;
+
+        margin-top: 40px;
+
+        box-sizing: border-box;
+    }
+
+
+    /* =====================================================
+       PAGINATION
+    ===================================================== */
+
+    .mobile-book-pagination {
+        width: 100%;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+        max-width: 327px;
+        
+    }
+
+
+    .mobile-book-pagination p {
+        margin: 0;
+color: var(--brand-navy, #16305B);
+font-family: "Nunito";
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 23.8px */
+    }
+
+    .book-read-btn{
+        max-width: 327px;
+        width: 100%;
+    }
+
+    .mobile-arrow {
+        width: 22px;
+        height: 22px;
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        padding: 0;
+
+        border: 0;
+
+        background: transparent;
+
+        cursor: pointer;
+    }
+
+
+    .mobile-arrow img {
+        width: 20px;
+        height: 20px;
+
+        display: block;
+
+        object-fit: contain;
+    }
+
+.book-download-btn {
+    max-width: 100%;
+    position: relative;
+    bottom: 0px;
+    height: 56px;
+    width: 100%;
+    margin-top: 24px;
+    max-width: 327px;
+}
+
+
+    /* =====================================================
+       DOWNLOAD
+    ===================================================== */
+
+    .book-download-wrap {
+        width: 100%;
+        margin-top: 0px;
+    }
+ 
+
+.hero-dragon{
+    padding:109px 0px 40px;
+}
+    .hero-dragon__content h1{
+        color: var(--brand-cream, #FBF3E0);
+text-align: center;
+font-family: "Anton";
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 48px */
+text-transform: uppercase;
+    }
+
+    .book-arrow{
+        border: none;
+    }
+
+
+  
 
 
 

@@ -1963,3 +1963,505 @@ text-transform: uppercase;
     opacity: 0.80;
 }
 
+
+
+/* CREATE STORY */
+
+
+
+
+
+.hero-dragon {
+    position: relative;
+
+    width: 100%;
+padding: 224px 0px 153px;
+    overflow: hidden;
+
+    background: var(--brand-navy, #16305B);
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.hero-dragon__content {
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.hero-dragon__content h1 {
+    margin: 0;
+color: var(--brand-cream, #FBF3E0);
+text-align: center;
+font-family: "Anton";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 76.8px */
+text-transform: uppercase;
+}
+
+
+/* =========================================
+   GRASS IMAGE
+========================================= */
+
+.hero-dragon__grass {
+    position: absolute;
+
+    z-index: 1;
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: auto;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: bottom center;
+
+    pointer-events: none;
+}
+
+/* =========================================================
+   CREATE STORY BOOK
+========================================================= */
+
+.create-story-book {
+    margin-top: -1px;
+    width: 100%;
+    padding: 64px 0 0px;
+
+    box-sizing: border-box;
+
+    background: #FBF3E0;
+
+    background-image:
+        url("../media/create-background-clouds.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* =========================================================
+   CONTAINER
+   STRUCTURAL ONLY
+========================================================= */
+
+.create-story-book > .container {
+    width: 100%;
+    max-width: 1320px;
+
+    margin: 0 auto;
+    padding: 0 24px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   MAIN BOX
+========================================================= */
+
+.create-story-book__mainbox {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   DESKTOP
+========================================================= */
+
+.create-story-book__desktop {
+    width: 100%;
+}
+
+
+/* =========================================================
+   BOOK SECTION
+========================================================= */
+
+.book-section {
+    width: 100%;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    text-align: center;
+    position: relative;
+}
+
+
+/* =========================================================
+   BOOK SPREAD
+
+   book_g.png = YOUR BOOK BACKGROUND
+========================================================= */
+
+.book-spread {
+    position: relative;
+
+    width: 100%;
+    max-width: 1260px;
+
+    height: 810px;
+
+    margin: 0 auto;
+
+    box-sizing: border-box;
+
+    background-image:
+        url("../img/book_g.png");
+
+    background-repeat: no-repeat;
+
+    background-position: center center;
+
+    background-size: contain;
+
+    perspective: 2000px;
+}
+
+
+/* =========================================================
+   LEFT PAGE
+
+   No artificial border.
+   book_g.png provides the book frame.
+========================================================= */
+
+.book-left-page {
+    position: absolute;
+    top: 0%;
+    left: 9.5%;
+    width: 40.5%;
+
+
+    z-index: 2;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+
+    background: transparent;
+
+    border-radius: 14px 4px 4px 14px;
+}
+
+
+.book-left-page img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 12px 4px 4px 12px;
+}
+
+
+/* =========================================================
+   RIGHT FLIPPING PAGES
+
+   DO NOT RENAME .right
+   Your JS depends on it.
+========================================================= */
+
+.book-spread > .right {
+    position: absolute;
+
+    top: 3%;
+    right: 9.5%;
+height: 75%;
+    width: 40.5%;
+    z-index: 10;
+
+    transform-origin: left center;
+
+    transform-style: preserve-3d;
+
+    transition:
+        transform 0.7s ease-in-out;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   FRONT / BACK
+========================================================= */
+
+.right > figure.front,
+.right > figure.back {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    backface-visibility: hidden;
+
+    background: #FFFFFF;
+}
+
+
+/* =========================================================
+   FRONT
+========================================================= */
+
+.right > figure.front {
+    z-index: 2;
+
+    border: 0;
+
+    border-radius: 4px 14px 14px 4px;
+
+    box-shadow: none;
+
+    background: #FFFFFF;
+}
+
+
+/* =========================================================
+   BACK
+========================================================= */
+
+.right > figure.back {
+    z-index: 1;
+
+    transform: rotateY(180deg);
+
+    padding: 5px;
+
+    border: 0;
+
+    border-radius: 14px 4px 4px 14px;
+
+    background: #FFFFFF;
+}
+
+
+.right > figure.back img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 10px 3px 3px 10px;
+}
+
+
+/* =========================================================
+   FLIP
+========================================================= */
+
+.right.flip {
+    transform: rotateY(-180deg);
+}
+
+
+/* =========================================================
+   TEXT PAGE
+========================================================= */
+
+.fron-content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+
+    padding: 38px 38px 26px;
+
+    text-align: left;
+
+    overflow: hidden;
+}
+
+
+.story-text {
+    width: 100%;
+}
+
+
+.story-text p {
+    margin: 0 0 10px;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Nunito, sans-serif;
+
+    font-size: 13px;
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: 155%;
+
+    text-align: left;
+}
+
+
+.story-text p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   BOOK CONTROLS
+========================================================= */
+
+.book-controls {
+    position: absolute;
+   bottom: 213px;
+    right: 148px;
+    width: 100%;
+    max-width: 462px;
+
+    z-index: 100;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   PAGINATION
+========================================================= */
+
+.book-pagination {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 32px;
+}
+
+
+.book-pagination button {
+  width: 32px;
+height: 32px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    border: 0;
+
+    background: #16305B;
+
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.book-pagination button img {
+    width: 20px;
+    height: 20px;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+.book-pagination p {
+    margin: 0;
+color: var(--brand-navy, #16305B);
+
+font-family: "Nunito";
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 23.8px */
+}
+
+
+/* =========================================================
+   READ ALOUD
+========================================================= */
+
+.book-read-btn {
+    max-width: 169px;
+}
+
+
+/* =========================================================
+   DOWNLOAD
+========================================================= */
+
+.book-download-wrap {
+    width: 100%; 
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 22px;
+}
+
+
+.book-download-btn {
+max-width: 200px;
+position: absolute;
+    bottom: 90px;
+}
+
+
+
+/* =========================================================
+   MOBILE OFF
+========================================================= */
+
+.create-story-book__mobile {
+    display: none;
+}
+
