@@ -1,33 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
-/* --------- External Library  CSS -------- */
-@import url("../css/hamburgers.css");
+/* --------- External Library CSS --------- */
+
+@import url("./hamburgers.css");
+
 @import url("../uiframe/css/bootstrap.min.css");
 @import url("../uiframe/css/animate.min.css");
 @import url("../uiframe/css/font-awesome.min.css");
 @import url("../uiframe/css/aos.css");
 
-/* --------- External Slider  CSS -------- */
 
-@import url("../css/owl.carousel.min.css");
-@import url("../css/owl.theme.default.css");
-@import url("../css/swiper-bundle.min.css");
-@import url("/uiframe/css/slick.css");
+/* --------- External Slider CSS --------- */
+
+@import url("./owl.carousel.min.css");
+@import url("./owl.theme.default.css");
+@import url("./swiper-bundle.min.css");
+
+@import url("../uiframe/css/slick.css");
 @import url("../uiframe/css/slick-theme.css");
 
-/* --------- developer  css -------- */
 
-@import url("../css/dhiraj.css");
-@import url("../css/dhirajresponsive.css");
-@import url("../css/tstyle.css");
-@import url("../css/sakch.css");
-@import url("../css/sakdam.css");
-@import url("../css/rstyle.css");
-@import url("../css/diksha.css");
-@import url("../css/medhnash.css");
-@import url("../css/style.css");
-@import url("../css/responsive.css");
+/* --------- Developer CSS --------- */
+
+@import url("./dhiraj.css");
+@import url("./dhiraj-responsive.css");
+@import url("./ttstyle.css");
+@import url("./sakch.css");
+@import url("./sakdam.css");
+@import url("./rstyle.css");
+@import url("./diksha.css");
+@import url("./medhansh.css");
+@import url("./style.css");
+@import url("./responsive.css");
 
 /* ------------font family ---------- */
 
