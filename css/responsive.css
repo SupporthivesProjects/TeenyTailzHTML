@@ -387,3 +387,92 @@
     }
 
 }
+@media only screen and (max-width: 600px) {
+    .checkout-top {
+        background: var(--brand-navy, #16305B);
+        margin-top: 70px;
+        padding: 40px 24px;
+    }
+    .checkout-top h1 {
+        color: var(--brand-cream, #FBF3E0);
+        font-family: Anton;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+    .your-details {
+        background: var(--brand-cream, #FBF3E0);
+        padding: 40px 24px 24px;
+    }
+    .your-details-right {
+        border-radius: var(--radius-m, 8px);
+        border: 1px solid var(--brand-line-16, rgba(22, 48, 91, 0.16));
+        background: var(--brand-navy, #16305B);
+        width: 560px;
+        max-width: 100%;
+        padding: 24px;
+        margin-top: 8px;
+    }
+    .pytem-is-teken p{
+        display: none;
+    }
+    .pytem-is-teken .form-check-input:checked[type=checkbox] {
+        border-radius: var(--radius-xs, 2px);
+        border: 2px solid rgba(22, 48, 91, 0.35);
+        background-color: var(--Base-White, #fff);
+    }
+    .pay-btn-main span {
+        border-radius: var(--radius-xs, 2px);
+        border: 2px dashed var(--brand-gold-light, #ECAD47);
+        display: flex;
+        padding: 8px 18px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+    }
+    .form-check label{
+        color: var(--brand-cream, #FBF3E0);
+        font-size: 15px;
+
+    }
+    .form-check label a{
+        color: var(--brand-cream, #FBF3E0);
+        font-size: 15px;
+
+    }
+    .form-check {
+        margin-bottom: 17px;
+        display: flex;
+        gap: 16px;
+    }
+    .recaptchaimg{
+        margin-bottom: 16px;
+    }
+    .discount-code {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+        padding: 16px 0px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .discount-code .btn {
+        display: flex;
+        padding: 6px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: var(--radius-s, 4px);
+        border: 1px solid var(--brand-navy, #16305B);
+        background: var(--brand-cream, #FBF3E0);
+        gap: 8px;
+        width: 100%;
+    }
+
+
+
+}
